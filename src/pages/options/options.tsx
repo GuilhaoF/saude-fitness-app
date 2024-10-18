@@ -4,7 +4,7 @@ import { OptionsScreen } from "../../components/options/options";
 export function Options() {
   return (
     <div>
-      <Navbar />
+      <Navbar title="Opçoes" />
       <OptionsScreen />
     </div>
   );

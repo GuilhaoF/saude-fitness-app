@@ -4,4 +4,13 @@
 
 body {
   background-color: #dcdde1;
-} 
+}
+@layer components {
+  .bg-input {
+    @apply bg-[#dcdde1];
+  }
+}
+.btn {
+  @apply h-1;
+}
+
